@@ -13,8 +13,8 @@ Detailed docs currently only available as source code comments (if any).
 
 ## Copyright and license
 
-Copyright 2014, Victor Foitzik. *perlbrew-fermenter* is released under the MIT license. Please refer to [the license file]() for details. 
+Copyright 2014, Victor Foitzik. *perlbrew-fermenter* is released under the MIT license. Please refer to [the license file](link_license) for details. 
 
 [link_license]: https://github.com/vifo/perlbrew-fermenter/blob/master/LICENSE.md
 [link_perlbrew]: http://perlbrew.pl/
-[link_perl_5_18_2]: https://github.com/vifo/perlbrew-fermenter/blob/master/LICENSE.md
+[link_perl_5_18_2]: http://www.cpan.org/src/README.html

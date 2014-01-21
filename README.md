@@ -11,6 +11,11 @@ curl https://raw.github.com/vifo/perlbrew-fermenter/master/fermenter.sh | bash
 
 Detailed docs currently only available as source code comments (if any).
 
+## Links
+
+* [perlbrew Homepage](http://perlbrew.pl/)
+* [App::perlbrew on metacpan](https://metacpan.org/release/App-perlbrew)
+
 ## Copyright and license
 
 Copyright 2014, Victor Foitzik. *perlbrew-fermenter* is released under the MIT license. Please refer to [the license file](https://raw.github.com/vifo/perlbrew-fermenter/master/fermenter.sh) for details.

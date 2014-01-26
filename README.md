@@ -4,7 +4,7 @@ Modernize your Perl! System-wide installation of [Perl 5.18.2](http://www.cpan.o
 
 ```bash
 # install Perl 5.18.2 and recommended modules via perlbrew to /usr/local/perl.
-curl https://raw.github.com/vifo/perlbrew-fermenter/master/fermenter.sh | bash
+curl https://raw.github.com/vifo/fermenter/master/fermenter.sh | bash
 ```
 
 ## Motivation
@@ -40,9 +40,10 @@ Detailed docs currently only available as source code comments (if any).
 
 * change the installation directory
 
-```bash
-$ FERMENTER_ROOT=/usr/local/fermenter curl https://raw.github.com/vifo/perlbrew-fermenter/master/fermenter.sh | bash
-```
+    ```bash
+    $ FERMENTER_ROOT=/usr/local/fermenter \
+        curl https://raw.github.com/vifo/fermenter/master/fermenter.sh | bash
+    ```
 
 ## Links
 
@@ -51,4 +52,4 @@ $ FERMENTER_ROOT=/usr/local/fermenter curl https://raw.github.com/vifo/perlbrew-
 
 ## Copyright and license
 
-Copyright 2014, Victor Foitzik. *perlbrew-fermenter* is released under the MIT license. Please refer to [the license file](https://raw.github.com/vifo/perlbrew-fermenter/master/fermenter.sh) for details.
+Copyright 2014, Victor Foitzik. *perlbrew-fermenter* is released under the MIT license. Please refer to [the license file](https://github.com/vifo/fermenter/blob/master/LICENSE.md) for details.

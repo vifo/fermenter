@@ -1,6 +1,6 @@
 # fermenter
 
-Modernize your Perl! System-wide installation of [Perl 5.18.2](http://www.cpan.org/src/README.html), [perlbrew](http://perlbrew.pl/) and recommended modules to `/usr/local/perl` on [various Linux distributions]() in one shot. Root required. Handle with care.
+Modernize your Perl! System-wide installation of [Perl 5.18.2][link_perl_5_18_2], [perlbrew][link_perlbrew] and recommended modules to `/usr/local/perl` on [various Linux distributions][link_distributions_md] in one shot. Root required. Handle with care.
 
 ```bash
 # install Perl 5.18.2 and recommended modules via perlbrew to /usr/local/perl.
@@ -9,14 +9,9 @@ curl https://raw.github.com/vifo/fermenter/master/fermenter.sh | bash
 
 ## Motivation
 
-*perlbrew* is great for setting up and managing multiple, isolated Perl.
-Still, even with *perlbrew*, you still have to install build dependencies,
-adjust compiler flags, update Perl modules after installation. cleanup and so
-on.
+*perlbrew* is great for setting up and managing multiple, isolated Perl installations. Yet, even with *perlbrew*, you still have to care yourself for possible build dependencies, adjust compiler flags, update Perl modules after installation. cleanup and so on.
 
-This is, where *fermenter* kicks in. It simplifies the installation of Perl
-via *perlbrew* by providing sensible defaults, adjusting compiler flags and
-handling build dependencies for the Linux distribution of your choice.
+This is, where *fermenter* kicks in. It simplifies the installation of Perl via *perlbrew* by providing sensible defaults, adjusting compiler flags, handling build dependencies and finally building and installing Perl including recommended modules.
 
 ### fermenter?
 
@@ -26,11 +21,11 @@ handling build dependencies for the Linux distribution of your choice.
 
 ## Supported/tested distributions
 
-* [Linux Mint 15 (Olivia)](http://www.linuxmint.com/release.php?id=20)
-* [Ubuntu 10.04.4 LTS (Lucid Lynx)](http://releases.ubuntu.com/lucid/)
-* and [more](https://github.com/vifo/fermenter/blob/master/DISTRIBUTIONS.md)
+* [Linux Mint 15 (Olivia)][link_distribution_linux_mint_15_olivia]
+* [Ubuntu 10.04.4 LTS (Lucid Lynx)][link_distribution_ubuntu_10_04_lts_lucid_lynx]
+* and [more][link_distributions_md].
 
-Distribution not listed? [Review open issues/open new one](https://github.com/vifo/fermenter/issues)
+Distribution not listed? [Review open issues/open new one][link_issues]
 
 ## Documentation
 
@@ -47,9 +42,18 @@ Detailed docs currently only available as source code comments (if any).
 
 ## Links
 
-* [perlbrew Homepage](http://perlbrew.pl/)
-* [App::perlbrew on metacpan](https://metacpan.org/release/App-perlbrew)
+* [perlbrew Homepage][link_perlbrew]
+* [App::perlbrew on metacpan][link_perlbrew_metacpan]
 
 ## Copyright and license
 
-Copyright 2014, Victor Foitzik. *perlbrew-fermenter* is released under the MIT license. Please refer to [the license file](https://github.com/vifo/fermenter/blob/master/LICENSE.md) for details.
+Copyright 2014, Victor Foitzik. *perlbrew-fermenter* is released under the MIT license. Please refer to [the license file][link_license_md] for details.
+
+[link_distributions_md]: DISTRIBUTIONS.md
+[link_license_md]: LICENSE.md
+[link_perl_5_18_2]: http://www.cpan.org/src/README.html
+[link_perlbrew]: http://perlbrew.pl/
+[link_perlbrew_metacpan]: https://metacpan.org/release/App-perlbrew
+[link_issues]: https://github.com/vifo/fermenter/issues
+[link_distribution_linux_mint_15_olivia]: http://www.linuxmint.com/release.php?id=20
+[link_distribution_ubuntu_10_04_lts_lucid_lynx]: http://releases.ubuntu.com/lucid
